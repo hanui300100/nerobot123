@@ -9,7 +9,7 @@ client = discord.Client()
 async def on_ready():
     print(str(datetime.datetime.today()) + "\n----------\n봇 이름 : " + str(client.user) + "\n----------\n" + str(client.user) + "봇이 " +  str(datetime.datetime.today().year) + "년 " + str(datetime.datetime.today().month) + "월 " + str(datetime.datetime.today().day) + "일 " + str(datetime.datetime.today().hour) + "시 " + str(datetime.datetime.today().minute) + "분 " + str(datetime.datetime.today().second) + "초에 로그인 했습니다.")
 #로그 채팅    await client.get_channel(792757695828197387).send("<@" + str(client.user.id) + ">봇이 " + str(datetime.datetime.today().year) + "년 " + str(datetime.datetime.today().month) + "월 " + str(datetime.datetime.today().day) + "일 " + str(datetime.datetime.today().hour) + "시 " + str(datetime.datetime.today().minute) + "분 " + str(datetime.datetime.today().second) + "초에 로그인 했습니다.\n\n`" + str(datetime.datetime.today()) + "`")
-    messages = [f"네로네로 디스코드 | {len(client.users)}명의 유저"]
+    messages = [f"노래 재생 기능 추가중 !!"]
     while True:
         await client.change_presence(status=discord.Status.online, activity=discord.Game(name=messages[0]))
         messages.append(messages.pop(0))
