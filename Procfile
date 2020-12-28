@@ -1,1 +1,1 @@
-worker: python run.bat
+worker: python run.bat, nerobot.cmd
