@@ -1,1 +1,1 @@
-worker: python nerobot.py
+worker: python run.py
