@@ -1,0 +1,7 @@
+{
+    "play": ["p"],
+    "skip": ["s"],
+    "queue": ["q"],
+    "join": ["j"],
+    "disconnect": ["l"]
+}
